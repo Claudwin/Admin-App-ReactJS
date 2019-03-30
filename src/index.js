@@ -3,9 +3,11 @@ import ReactDOM from "react-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import App from "./components/App";
+import "./index.css";
 
-function Hi() {
-  return <p> Hi. </p>;
-}
-
-ReactDOM.render(<Hi />, document.getElementById("app"));
+ReactDOM.render(
+  <Router>
+    <App />
+  </Router>,
+  document.getElementById("app")
+);

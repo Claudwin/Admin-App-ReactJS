@@ -4,7 +4,7 @@ import Header from "./common/Header";
 import HomePage from "./home/HomePage";
 import AboutPage from "./about/AboutPage";
 import PageNotFound from "./PageNotFound";
-import CoursesPage from "./courses/CoursePage";
+import CoursesPage from "./courses/CoursesPage";
 
 function App() {
   return (
